@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    outline: 0;
+
+}
+:root {
+    --primary: #8201FF;
+    --gray100: #e8e8e8;
+    --gray200: #9c9c9c;
+}
+
+
+
+
+/* top */
+.header-container {
+    margin: 50px auto;
+    color: white;
+    font-size: 150%;
+    background-color: blueviolet;
+
+}
+
+.header-container button {
+    color: white;
+    border-radius: 10px;
+    border: 5px;
+    cursor: pointer;
+}
+
+/* banner */
+.banner {
+    width: 83% ;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    margin: 20px auto;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* imagens peixes*/
+
+.peixes-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+    gap: 0px;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.peixe-item {
+    width: 150px;
+    height: 250px;
+    border: 1px solid var(--gray200);
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 2px 4px 10px var(--gray200);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.peixe-item:hover {
+    transform: scale(1.05);
+    box-shadow: 4px 4px 15px var(--gray200);
+
+}
+
+.peixe-item img {
+   
+   
+    border-radius: 5px;
+}
+
+.peixe-item h2 {
+    margin-top: 10px;
+}
+
+/* Rodapé */
+footer {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #333;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 14px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+.footer-links a:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.footer-links span {
+    color: white;
+    opacity: 0.7;
+}
