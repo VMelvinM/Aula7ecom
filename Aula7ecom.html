@@ -4,20 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/imagem/iconepage.png" type="iconepage">
     <link rel="stylesheet" href="Aula7.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>fish Store</title>
 </head>
 
 <body>
     <!-- topo -->
-    <section class="header-container">
-        <div class="header-item">
+    <section class="navbar">
+        <div class="navbar">
             <H1>Fish Store</H1>
             <input type="Enter" placeholder="Busca de produtos">
-            <button><img src="/imagem/lupabotao.jpg" alt="button"></button>
-            <a href="">Home</a>
-            <a href="">Produtos</a>
-            <a href="">Categorias</a>
+            <div class="hamburguer">
+                <i class="fa-solid fa-bars" style="color: #edeff3;"></i>
+            </div>
+            <div class="menu">
+                <nav>
+                    <ul class="lista-header">
+                        <li> <a href="">Home</a></li>
+                        <li><a href="">Produtos</a></li>
+                        <li><a href="">Categorias</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </section>
 
@@ -27,30 +39,48 @@
     </div>
 
     <!-- imagens dos peixes -->
-    <section class="peixes-container">
-        <div class="peixe-item">
+    <section class="vitrine">
+        <div class="card">
             <img src="/imagem/nemo.jfif" alt="Nemo" width="120px" height="120px">
             <h2>Nemo</h2>
             <p>Produto 1</p>
             <p>R$60,00</p>
         </div>
-        <div class="peixe-item">
-            <img src="/imagem/yt.jfif" alt="Mandarim" width="120px" height="120px">
-            <h2>Mandarim</h2>
+        <div class="card">
+            <img src="/imagem/yt.jfif" alt="Yellow Tang" width="120px" height="120px">
+            <h2>Yellow Tang</h2>
             <p>Produto 2</p>
-            <p>R$350,00</p>
+            <p>R$3.050,00</p>
         </div>
-        <div class="peixe-item">
+        <div class="card">
             <img src="/imagem/fire.jpg" alt="Fire Fish" width="120px" height="120px">
             <h2>Fire Fish</h2>
             <p>Produto 4</p>
             <p>R$120,00</p>
         </div>
-        <div class="peixe-item">
+        <div class="card">
             <img src="/imagem/dory.jpg" alt="Dory" width="120px" height="120px">
             <h2>Dory</h2>
             <p>Produto 5</p>
             <p>R$560,00</p>
+        </div>
+        <div class="card">
+            <img src="/imagem/Purple Tang.jpg" alt="Purple" width="120px" height="120px">
+            <h2>Purple Tang</h2>
+            <p>Produto 6</p>
+            <p>R$2.200,00</p>
+        </div>
+        <div class="card">
+            <img src="/imagem/Powder Blue.jpg" alt="Dory" width="120px" height="120px">
+            <h2>Powder Blue</h2>
+            <p>Produto 7</p>
+            <p>R$885,00</p>
+        </div>
+        <div class="card">
+            <img src="/imagem/mandarim2.jpg" alt="mandarim" width="120px" height="120px">
+            <h2>Mandarim Red</h2>
+            <p>Produto 8</p>
+            <p>R$350,00</p>
         </div>
     </section>
 
