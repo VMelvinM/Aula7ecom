@@ -33,7 +33,7 @@ body {
 .navbar h1 {
     font-family: "Winky Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    /* font-weight: <weight>; */
     font-style: normal;
     font-size: 2.5em;
 }
@@ -117,7 +117,7 @@ body {
 .card p {
     font-family: "Winky Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    /* font-weight: <weight>; */
     font-style: normal;
 }
 
@@ -161,4 +161,25 @@ footer {
         display: block;
         cursor: pointer;
     }*/
+}
+.checkout {
+    width: 130px;
+}
+
+td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+img.checkout,
+input.checkout {
+    display: block;
+    margin: 0 auto;
+}
+
+input.checkout {
+    width: 70px;             /* ou qualquer valor que achar legal (ex: 60px, 100px) */
+    margin: 0 auto;          /* centraliza o input */
+    display: block;          /* precisa disso pra o margin funcionar */
+    text-align: center;      /* centraliza o número dentro do input */
 }
